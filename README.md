@@ -5,3 +5,8 @@ Ceci est un test, pour amélioré mes capacités.
 Mis à jour le 03/06/2021 à 11:40 AM
 
 Création d'une base HTML pour le projet, chaque partie du site ont était définis, le remplissage ce ferras au fur et a mesure.
+
+
+Mis à jour le 06/06/2021 à 3:16 PM
+
+Modification du projet de base, Objectif du HTML5 terminé.
