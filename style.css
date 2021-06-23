@@ -2,6 +2,7 @@
 body {
     box-sizing: border-box;
     font-family: Raleway, serif;
+    width: 100%;
     max-width: 1440px;
 }
 
@@ -57,10 +58,12 @@ img {
 
 .header-signup {
     display: none;
+    color: #0065FC;
 }
 
 .header-signup:hover {
     text-decoration: underline;
+    color: #0065FC;
 }
 
 /* Titre et sous-titre */
@@ -134,10 +137,11 @@ img {
 .filters-buttons {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 10px auto;
 }
 
 .btn span {
-    margin-left: 10px;
+    margin-left: 20px;
     margin: 10px
 }
 
@@ -159,13 +163,13 @@ img {
     padding: 0;
     align-items: center;
     border-radius: 50px;
-    border: 2px solid #ccc;
+    border: 2px solid whitesmoke;
     cursor: pointer;
     display: flex;
     font-weight: bold;
     height: 40px;
     margin-bottom: 9px;
-    margin-left: 9px;
+    margin-left: 40px;
 }
 
 .btn:hover {
@@ -189,13 +193,13 @@ img {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin: 18px;
+    margin-top: 18px;
 }
 
 /* aside plus populaires */
 .most-popular {
     background-color: #F2F2F2;
-    padding: 5px;
+    padding-top: 20px;
     width: auto;
 }
 
@@ -246,6 +250,7 @@ img {
 
 .most-popular .ratting-stars {
     margin-left: 10px;
+    padding-top: 19px;
 }
 
 .most-popular .fa-star {
@@ -255,7 +260,7 @@ img {
 
 /* section one */
 .section-one h3 {
-    margin: 35px 20px;
+    padding-top: 10px;
 }
 
 .section-one a {
@@ -301,8 +306,7 @@ img {
     border-top-right-radius: 20px;
     height: 100px;
     object-fit: cover;
-    padding: 5px;
-    width: 97%;
+    width: 100%;
 }
 .fa-star {
     color: #0065FC;
@@ -534,12 +538,12 @@ footer a {
 @media screen and (min-width: 992px) {
     body {
         max-width: 1240px;
-        margin: auto
+        margin: auto;
     }
 
     /*** changes for header section ***/
     .header img {
-        width: 100px
+        width: 100px;
     }
 
     .header-navigation-links,
@@ -575,7 +579,7 @@ footer a {
 
     /*********** Changes for most popular section *********/
     .title-popular-section {
-        padding: 15px;
+        padding: 0px;
     }
 
     .most-popular {
@@ -590,7 +594,7 @@ footer a {
         display: flex;
         filter: drop-shadow(0 0 4px #ccc);
         height: 120px;
-        margin: 5px;
+        margin: 10px;
     }
 
     .most-popular .imgCard {
@@ -633,7 +637,7 @@ footer a {
     }
 
     .section-one h3 {
-        margin: 20px 20px;
+        margin: 5px 20px;
     }
 
     /******************** Changes for section two *****************/
