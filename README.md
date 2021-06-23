@@ -53,7 +53,7 @@ Mis à jour le 06/06/2021 à 3:16 PM
 
 Modification du projet de base, Objectif du HTML5 terminé.
 
-Mis à jour le 23/06/2021
+Mis à jour le 23/06/2021 à 1:40 PM
 
 Ajout de toutes la partie CSS / Responsive, amélioration du contenu HTML
 Nécessité de modifier les balises pour un rendu 100% identique au format desktop, le format mobile étant respecter.
